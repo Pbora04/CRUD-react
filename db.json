@@ -1,0 +1,58 @@
+{
+  "student": [
+    {
+      "name": "jyoti kanwal",
+      "email": "jyoti@gmail.com",
+      "phone": "00000000000",
+      "id": 1
+    },
+    {
+      "name": "Preeti Bora",
+      "email": "preeti@gmail.com",
+      "phone": "987564554545",
+      "id": 4
+    },
+    {
+      "name": "sohan",
+      "email": "sohan@gmail.com",
+      "phone": "9043525353",
+      "id": 6
+    },
+    {
+      "name": "raj arora",
+      "email": "raj@gmail.com",
+      "phone": "9087646775",
+      "id": 7
+    },
+    {
+      "name": "Pooja",
+      "email": "pooja@gmail,com",
+      "phone": "95985",
+      "id": 8
+    },
+    {
+      "name": "Praveen ",
+      "email": "praveen@gmail.com",
+      "phone": "908087678",
+      "id": 10
+    },
+    {
+      "name": "RAM JI",
+      "email": "Ramji@gmail.com",
+      "phone": "maindir",
+      "id": 14
+    },
+    {
+      "name": "sandeep",
+      "email": "sandeep@gmail.com",
+      "phone": "9878676798",
+      "id": 15
+    },
+    {
+      "name": "anita",
+      "email": "anita@gmail.com",
+      "phone": "684783983",
+      "id": 16
+    }
+  ]
+}

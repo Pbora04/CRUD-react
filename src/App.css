@@ -1,38 +1,221 @@
-.App {
-  text-align: center;
+.outer{
+    background-color: grey;
+    width: 100%;
+    height: 800px;
+}  
+
+.mainBox{
+    text-align: center;
+    background-color: grey;
+    width: 80%;
+    margin-left: 10%;
+    padding: 10px;
+   
+  
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.tableBox{
+    background-color: rgb(137, 131, 131);
+    box-shadow:-5px -5px 10px rgb(108, 102, 102),5px 5px 10px rgb(79, 78, 78);   
+ 
+}
+.tableBox table{
+    justify-content: center;
+    border: 2px solid rgb(118, 110, 110);
+    width: 100%;
+    padding: 5px;
+    height: 400px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.tableBox table th{
+    background-color: rgb(72, 64, 64);
+    color: white;
+    border: 2px solid white;
+    box-shadow:-5px -5px 10px rgb(108, 102, 102),5px 5px 10px rgb(79, 78, 78);
+
+}
+.tableBox table td{
+    background-color: grey;
+    color: rgb(7, 7, 7);
+    border: 1px solid white;
+    box-shadow:-5px -5px 10px rgb(108, 102, 102),5px 5px 10px rgb(79, 78, 78);
+}
+.tableBox table td:hover{
+    background-color: rgb(97, 95, 95);
+}
+.LinkHome{
+    font-size: 0.8rem;
+    background-color: green;
+    color:rgb(248, 248, 251);
+    margin: 10px;
+    margin-left: 15px;
+    box-shadow:-5px -5px 10px rgb(106, 103, 103),5px 5px 10px rgb(137, 136, 136);
+    text-decoration: none;
+    padding: 2px;
+    border-radius: 2px;
+    
+}
+.LinkHome:hover{
+    font-size: 12px;
+    color: rgb(5, 5, 125);
+    background-color: rgb(243, 238, 238);
+    
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.delete{
+    color:white;
+    background-color: red;
+    margin: 10px;
+    box-shadow:-5px -5px 10px rgb(106, 103, 103),5px 5px 10px rgb(137, 136, 136);
+    border-radius: 2px;
+
+}
+.delete:hover{
+    font-size: 0.8rem;
+    color: red;
+    background-color: rgb(243, 238, 238);
+}
+.edit{
+    background-color: blue;
+    font-size: 0.8rem;
+    color:rgb(248, 248, 251);
+    margin: 10px;
+    margin-left: 15px;
+    box-shadow:-5px -5px 10px rgb(106, 103, 103),5px 5px 10px rgb(137, 136, 136);
+    text-decoration: none;
+    padding: 2px;
+    border-radius: 2px;
+
+}
+.edit:hover{
+    font-size: 12px;
+    color: rgb(5, 5, 125);
+    background-color: rgb(243, 238, 238);
+    
+
 }
 
-.App-link {
-  color: #61dafb;
+.heading{
+    background-color: rgb(72, 64, 64);
+    color: white;
+    border: 2px solid white;
+    box-shadow:-5px -5px 10px rgb(70, 64, 64),5px 5px 10px rgb(36, 36, 36);
+}
+.createConnect{
+    text-align: right;
+    color: rgb(241, 241, 245);
+    padding: 10px;
+    margin: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.createbg{
+    background-color:blue ;
+    color: rgb(241, 241, 245);
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid blue;
 }
+
+/* ////////////////////////////////////////////////////////////////////////// */
+                       /* create.js */
+ .Outercreate{
+     background-color:rgb(227, 227, 237);
+     height: 500px;
+     width:80%;
+     margin-left:10% ;
+     text-align: center;
+     justify-content: center;
+  }         
+.Outercreate h2{
+    border: 2px solid rgb(67, 67, 122);
+    background-color: rgb(206, 206, 235);
+}
+.inputs{
+    font-size: 1.6em;
+    margin-top: 40px;
+    padding: 10px;
+}
+.inputs label{
+    color: blue;
+
+}
+.Outercreate button{
+    color:white;
+    background-color: rgb(67, 67, 122);
+    margin: 5px;
+    border-radius: 2px;
+    padding: 5px;
+    height: 33px;
+}
+.Outercreate button:hover{
+    background-color: blue;
+
+}
+.Link{
+    color:white;
+    background-color: rgb(67, 67, 122);
+    margin-top: 5px;
+    margin: 5px;
+    padding: 5px;
+ text-decoration: none;
+ border-radius: 2px;
+}
+.Link:hover{
+    background-color: blue;
+
+}
+
+
+/* ////////////////////////////////////////////////////////////////////////// */
+                       /* read.js */
+    .container{
+
+background-color:rgb(227, 227, 237);
+     height: 600px;
+     width:80%;
+     margin-left:10% ;
+     text-align: center;
+     justify-content: center;
+    }              
+    .container h1{
+        border: 2px solid rgb(67, 67, 122);
+        background-color: rgb(206, 206, 235);
+        padding: 5px;
+        
+    }   
+    .body{
+        font-size: 1.6em;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        padding: 10px;
+    }  
+    .bodyparts{
+        font-size: 1.2em;
+        margin-top: 30px;
+        padding: 10px; 
+        margin-bottom: 20px;  
+    }
+
+    .editRead{
+        color:white;
+        background-color: rgb(137, 137, 193);
+        margin:15px;
+       border-radius: 2px;
+       border: 1px solid  rgb(137, 137, 193) ;
+        text-decoration: none;
+        padding: 5px;
+        height: 33px;
+    }
+    .backRead{
+        color:white;
+        background-color: rgb(137, 137, 193);
+        text-decoration: none;
+        padding: 5px;
+        height: 33px;
+        border-radius: 2px;
+        border: 1px solid  rgb(137, 137, 193) ;
+
+
+    }
