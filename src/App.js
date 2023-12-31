@@ -9,10 +9,7 @@ function App() {
   return (
     <>
           <BrowserRouter>
-      {/* <Link to='/'>Home</Link> */}
-      {/* <Link to='/create'>Create</Link> */}
-      {/* <Link to='/read'>Read</Link> */}
-      {/* <Link to='/update'>Update</Link> */}
+      
 
         <Routes>
           <Route path='/' element={<Home/>}></Route>
