@@ -51,7 +51,7 @@ const Home = () => {
             <td>{item.phone}</td>
             <td>
               <Link className='LinkHome' to={`/read/${item.id}`}>Read</Link>
-             <Link className='edit' to='/update'>Edit</Link>
+             <Link className='edit' to={`/update/${item.id}`}>Edit</Link>
               <button className='delete' onClick={e =>deleteFunc(item.id)}>Delete</button>
             </td>
           </tr>

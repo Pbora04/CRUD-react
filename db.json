@@ -1,33 +1,9 @@
 {
   "student": [
     {
-      "name": "jyoti kanwal",
-      "email": "jyoti@gmail.com",
-      "phone": "00000000000",
-      "id": 1
-    },
-    {
-      "name": "Preeti Bora",
-      "email": "preeti@gmail.com",
-      "phone": "987564554545",
-      "id": 4
-    },
-    {
-      "name": "sohan",
-      "email": "sohan@gmail.com",
-      "phone": "9043525353",
-      "id": 6
-    },
-    {
-      "name": "raj arora",
-      "email": "raj@gmail.com",
-      "phone": "9087646775",
-      "id": 7
-    },
-    {
-      "name": "Pooja",
+      "name": "Pooja g",
       "email": "pooja@gmail,com",
-      "phone": "95985",
+      "phone": "9598577777",
       "id": 8
     },
     {
@@ -37,7 +13,7 @@
       "id": 10
     },
     {
-      "name": "RAM JI",
+      "name": "siya RAM JI",
       "email": "Ramji@gmail.com",
       "phone": "maindir",
       "id": 14
@@ -53,6 +29,12 @@
       "email": "anita@gmail.com",
       "phone": "684783983",
       "id": 16
+    },
+    {
+      "name": "new",
+      "email": "new",
+      "phone": "7686",
+      "id": 18
     }
   ]
 }

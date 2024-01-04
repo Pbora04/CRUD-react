@@ -52,9 +52,11 @@
     margin-left: 15px;
     box-shadow:-5px -5px 10px rgb(106, 103, 103),5px 5px 10px rgb(137, 136, 136);
     text-decoration: none;
-    padding: 2px;
-    border-radius: 2px;
-    
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 54%;
 }
 .LinkHome:hover{
     font-size: 12px;
@@ -69,7 +71,11 @@
     background-color: red;
     margin: 10px;
     box-shadow:-5px -5px 10px rgb(106, 103, 103),5px 5px 10px rgb(137, 136, 136);
-    border-radius: 2px;
+    padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 54%;
 
 }
 .delete:hover{
@@ -86,7 +92,13 @@
     box-shadow:-5px -5px 10px rgb(106, 103, 103),5px 5px 10px rgb(137, 136, 136);
     text-decoration: none;
     padding: 2px;
-    border-radius: 2px;
+   
+    
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 54%;
 
 }
 .edit:hover{

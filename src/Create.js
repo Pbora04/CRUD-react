@@ -1,9 +1,10 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 
 
 const Create = () => {
+  const navigate=useNavigate()
   const[input,setInput]=useState({
     name: "",
     email: "",
@@ -15,6 +16,8 @@ const Create = () => {
     axios.post(`http://localhost:3000/student`,input)
     .then((res)=>{
      console.log(res.data)
+     navigate('/')
+     
     }).catch(err =>{
       console.log(err)
     })
@@ -47,12 +50,6 @@ const Create = () => {
         <Link className='Link' to={`/`}>Back</Link>
     </form>
 </div>
-      
-        
-     
-      
-    
-    
     </>
   )
 }
