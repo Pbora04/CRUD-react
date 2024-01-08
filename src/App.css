@@ -231,3 +231,33 @@ background-color:rgb(227, 227, 237);
 
 
     }
+
+    
+/* ////////////////////////////////////////////////////////////////////////// */
+                       /* update.js */
+
+.headingUpdate{
+    border: 2px solid rgb(67, 67, 122);
+        background-color: rgb(206, 206, 235);
+        padding: 5px;
+}
+
+.maindiv{
+    
+background-color:rgb(227, 227, 237);
+height: 600px;
+width:80%;
+margin-left:10% ;
+text-align: center;
+justify-content: center;
+}
+
+.body label{
+    font-size: 1.2em;
+    margin-top: 30px;
+    padding: 10px; 
+    margin-bottom: 20px;  
+    
+
+}
+

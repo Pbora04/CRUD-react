@@ -23,7 +23,7 @@ const {id}=useParams()
       <div className='bodyparts'> <span><b>Email : </b></span> {inputvalue.email}</div>
       <div className='bodyparts'> <span><b>Phone : </b></span> {inputvalue.phone}</div>
     </div>
-     <Link className='editRead' to='/update/${id}'>Edit</Link>
+     <Link className='editRead' to={`/update/${id}`}>Edit</Link>
      <Link className='backRead' to='/'>Back</Link>
     </div>
    </>

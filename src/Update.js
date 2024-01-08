@@ -1,6 +1,6 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
-import { useNavigate, useParams } from 'react-router-dom'
+import { Link, useNavigate, useParams } from 'react-router-dom'
 
 const Update = () => {
   const{id}=useParams()
@@ -22,7 +22,7 @@ const[getvalue,setGetvalue]=useState({
   function UpdateNew(e){
     e.preventDefault()
 
-      axios.put(`  http://localhost:3000/student/${id}`,getvalue).then(res3=>{
+      axios.put(`http://localhost:3000/student/${id}`,getvalue).then(res3=>{
     console.log(res3)
     navig("/")
       }).catch(err=>{console.log(err)})
@@ -32,7 +32,9 @@ const[getvalue,setGetvalue]=useState({
   return (
     <>
 
-  <form >
+  <form className='maindiv'>
+  <h2 className='headingUpdate'>Update Information</h2>
+  <div className='body'>
   <label>Name :</label>
   <input type='text' value={getvalue.name} onChange={e=>setGetvalue({...getvalue,name:e.target.value})} /> 
   <br/>
@@ -43,7 +45,9 @@ const[getvalue,setGetvalue]=useState({
   <br/>
   <label>Phone :</label>
   <input type='text' value={getvalue.phone} onChange={e=>setGetvalue({...getvalue,phone:e.target.value})}  />
-  <button onClick={(e)=>UpdateNew(e)}>update</button>
+  </div>
+  <button className='editRead' onClick={(e)=>UpdateNew(e)}>update</button>
+  <Link className='editRead' to={'/'}>Back</Link>
 </form>
     </>
   )
